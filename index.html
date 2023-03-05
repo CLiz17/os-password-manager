@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Manager</title>
+</head>
+<body>
+<h3>Password Manager</h3>
+<h4>Add Password</h4>
+
+<div onsubmit="locfunc(event)">
+<div>
+    <label for="default-input">Website url</label>
+    <input type="text" id="web">
+</div>
+<div>
+    <label for="default-input">Password</label>
+    <input type="text" id="pwd">
+</div>
+<button type="button">Generate Password</button>
+<button type="button">Save</button>
+</div>
+
+<!---search section-->
+<form>
+    <h4>Search for the passwords</h4>  
+    <input type="search" id="default-search" placeholder="Enter Website url" required>
+    <button type="submit" >Search</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
