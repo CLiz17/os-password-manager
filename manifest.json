@@ -1,8 +1,10 @@
 {
     "name":"Password Manager",
-    "version":"0.0.1",
+    "description":"Password Generation | Encryption | Browser Integration | Opensource",
+    "version":"1.0",
     "manifest_version":2,
     "browser_action":{
+        "default_title":"Password Manager",
         "default_popup":"index.html",
         "default_icon":"logo.png"
     },
